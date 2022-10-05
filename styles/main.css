@@ -1,0 +1,609 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  
+ 
+}
+:root {
+    
+  --text-style-2: "Poppins", Semi bold, 36px, #0c474b;
+  --text-style-3: "Poppins", Semi bold, 24px, #0c474b, center;
+  --text-style: Poppins, Regular, 24px
+#0c474b;
+  --text-style-4: Poppins, Semi bold, 20px, #0c474b, center;
+
+  --background-color: #f0ebe5;
+  --secondary-color: #ff975a;
+  --primary-color: #0c474b;
+  --footer-color: #b6c8c9;
+  --white-color: #ffffff;
+  --font-family: "Poppins", sans-serif;
+  --font-weight: 600;
+  --font-36: 2.25em;
+  --font-30: 1.875;
+  --font-24: 1.5em;
+  --font-20: 1.25em;
+  --font-16: 1em;
+  --font-14: 0.875em;
+  
+  
+  /* color: var(--grey-color); */
+}
+
+/* HEADER*/
+
+.header {
+  height: 20%;
+  background-size: cover;
+  background-image: url(../images/header.jpg);
+  background-position: center;
+  font-family: var(--font-family);
+  color: var(--primary-color);
+}
+
+.imagen-hamburguesa {
+  width: 24px;
+  height: 24px;
+  position: fixed;
+  margin: 36px 43px 33px;
+}
+
+.imagen-hamburguesa:hover {
+  width: 36px;
+  height: 36px;
+}  
+
+.contenedor-logo {
+ padding-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  position: 50% 50%;
+}
+
+
+.header__nav--desktop:hover {
+  color: #ff975a;
+}
+
+/* section 2*/
+
+.contenedor-espacios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.h2-espacios {
+  padding-top: 100px;
+  text-align: center;
+  font-family: var(--font-family);
+  color: var(--primary-color);
+  font-size: var(--font-24);
+  font-weight: var(--font-weight);
+}
+
+.button {
+  width: 176px;
+  height: 48px;
+  padding: 12px 24px;
+  background-color: var(--primary-color);
+  margin: 24px 119px 64px 119px;
+  border: none;
+}
+
+.text-button {
+  width: 128px;
+  height: 24px;
+  font-weight: var(--font-weight);
+  font-family: var(--font-family);
+  font-size: var(--font-16);
+  color: white;
+  text-transform: capitalize;
+  font-size: var(--font-16);
+}
+
+.text-button:hover {
+  color: #ff975a;
+}
+
+/* MÓDULO  1 ----------------------------------------------------------*/
+
+.module-1 {
+  font-family: var(--font-family);
+  
+  background-color: var(--background-color);
+  
+  width: 100%;
+  color: var(--primary-color);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 113px;
+  align-items: center;
+  justify-items: center;
+  padding-top: 20%;
+ 
+  
+   
+ 
+  
+}
+
+
+
+.module-1__h3 {
+
+  color: var(--primary-color);
+  font-weight: var(--font-weight);
+  font-size: var(--font-24);
+  text-align: center;
+  min-width: 322px;
+  align-self: center;
+  width: 70%;
+  padding-bottom: 15%;
+  
+
+}
+
+.module-1__article--1 {
+  display: grid;
+  align-self: center;
+  width: 208px;
+  justify-items: center;
+  
+  
+}
+
+.module-1__article--text {
+  font-size: var(--font-16);
+  text-align: center;
+  height: 96px;
+}
+
+.module-1__article--h3 {
+  font-size: var(--font-20);
+  font-weight: var(--font-weight);
+  text-align: center;
+  padding-bottom: 5%;
+  padding-top: 20%;
+}
+
+.module-1__article--2 {
+  display:grid;
+  align-self: center;
+  justify-items: center;
+    width: 208px;
+}
+
+.module-1__article--3 {
+  display: grid;
+  align-self: center;
+  justify-items: center;
+  width: 208px;
+}
+
+
+
+
+/* MÓDULO  2 ----------------------------------------------------------------*/
+
+.module-2__section {
+  background-color: #ff975a;
+  color: white;
+  font-family: var(--font-family);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 325px;
+  
+}
+
+.module-2__h2 {
+  font-size: var(--font-24);
+  font-weight: var(--font-weight);
+}
+
+.module-2__text {
+  font-size: var(--font-14);
+  padding-top: 2%;
+}
+
+
+
+.module-2__enlace {
+  font-size: var(--font-16);
+  font-weight: var(--font-weight);
+  padding-top: 15%;
+  text-decoration: underline;
+}
+
+.module-2__link {
+  color:white;
+}
+
+
+
+
+
+/* MÓDULO  3 -------------------------------------------------------------*/
+
+.module-3__contenedor {
+  height: 645px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: var(--background-color);
+
+}
+
+
+
+.module-3__section--1 {
+  height: 50%;
+  font-family: var(--font-family);
+  color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 360px;
+ 
+}
+
+
+.module-3__h3 {
+  font-weight: var(--font-24);
+  font-weight: var(--font-weight);
+
+
+}
+
+
+.module-3__text {
+  font-size: var(--font-14);
+  padding-bottom: 10%;
+  padding-top: 5%;
+
+}
+
+
+
+.module-3__button {
+  width: 176px;
+  height: 48px;
+  padding: 12px 24px;
+  background-color: var(--primary-color);
+  border: none;
+  
+}
+
+.module-3__text-button {
+  width: 128px;
+  height: 24px;
+  font-weight: var(--font-weight);
+  font-family: var(--font-family);
+
+  color: white;
+  text-transform: capitalize;
+  font-size: var(--font-16);
+}
+
+
+.module-3__text-button:hover {
+  color: #ff975a;
+}
+
+
+
+
+
+.module-3__section--2 {
+  
+height: 50%;
+width: 100%;
+background-image: url(../images/creando-espacios.jpg);
+background-size:cover;
+}
+
+
+.module-3__imagen {
+  width: 100%;
+
+}
+
+
+
+
+/* FOOTER ------------------------------------------------------------*/
+
+.footer__section {
+  background-color: var(--primary-color);
+  font-family: var(--font-family);
+  color: var(--footer-color);
+  display: flex;
+  flex-direction: column;
+  padding-left: 146px;
+  padding-top: 5%;
+ 
+ 
+
+}
+
+.footer__tittle {
+  font-size: var(--font-20);
+  padding-top: 30px;
+  font-weight: var(--font-weight);
+}
+
+.footer__text {
+  font-size: var(--font-14);
+
+}
+
+.footer__icons {
+  padding-top: 5%;
+  padding-bottom: 5%;
+ 
+  
+}
+
+.fa-brands {
+  padding-right: 3%;
+  color: white;
+}
+
+.footer__links {
+  text-decoration: none;
+  color: var(--footer-color);
+}
+
+.footer__1 {
+  color: var(--footer-color);
+
+}
+
+
+
+
+.footer__arrow {
+  height: 24px;
+  width: 24px;
+  margin-left: 85%;
+
+ 
+}
+
+
+
+
+
+
+@media all and (min-width: 768px) {
+
+  .footer__section {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+
+
+/* MEDIAQUERIES*/
+
+
+
+/* 780--------------------------------------------*/
+
+@media all and (min-width: 768px) {
+
+.contenedor-espacios {
+  
+align-items: flex-start;
+padding-left: 30%;
+}
+
+
+.h2-espacios {
+  font-size: var(--font-36);
+  width: 50%;
+  text-align: start;
+  justify-items: flex-start;
+  padding-top:35%;
+  padding-bottom: 3%;
+  
+}
+
+.button {
+  margin:0;
+}
+
+.module-1 {
+ 
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row: 1fr 1fr;
+  padding-top: 0;
+  padding-bottom: 10%;
+  padding-top: 5%;
+  
+  }  
+
+  .header {
+    height: 822px;
+  }  
+   
+  .module-1__h3 {
+    grid-column: 1/4;
+    grid-row: 1;
+    width: 100%;
+    padding-bottom: 0;
+   
+  }
+  .module-1__article--1 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .module-1__article--2 {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .module-1__article--3 {
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+.module-3__h3 {
+  font-size: var(--font-30);
+}
+
+.module-3__section--1 {
+  height: 339px;
+}
+
+.module-3__section--2 {
+  height: 474px;
+}
+
+.footer__section {
+  padding-bottom: 10%;
+}
+
+.footer__arrow {
+  margin-top: 110px;
+  
+  
+}
+}
+
+/* 1200    ----------------------------------------------- */
+
+@media all and (min-width: 1200px) {
+
+  .header {
+    100vh;
+  }
+
+
+  .imagen-hamburguesa {
+    display: none;
+  }
+   .header__nav--desktop {
+    display:flex;
+    align-items: flex-start;
+    position: fixed;
+    z-index: 999;
+    padding-left: 15%;
+    padding-top: 5%;
+    font-size: var(--font-16);
+}
+  .contenedor-logo {
+    padding-top: 3%;
+  }
+
+  .h2-espacios {
+    width: 430px;
+    padding-top: 10%;
+  }
+
+  .contenedor-espacios {
+    padding-left: 15%;
+
+   
+    
+
+  }
+
+  .header__li {
+    padding-right: 10%;
+  }
+
+.module-1 {
+  padding-bottom: 5%;
+  padding-top: 5%;
+  height: 611px;
+  
+}
+
+.module-1__h3 {
+  grid-column: 2;
+  font-size: var(--font-36);
+  min-width: 799px;
+  padding-bottom: 10%;
+  padding-top: 5%;
+  
+}
+
+.module-2__section {
+  height: 400px;
+}
+
+.module-2__h2 {
+  font-size: var(--font-36);
+}
+
+.module-2__text {
+  font-size: var(--font-16);
+}
+
+.module-3__contenedor {
+  flex-direction: row;
+  
+}
+
+.module-3__section--1 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: start;
+}
+
+.module-3__h3 {
+  font-size: var(--font-36);
+  font-weight: var(--font-weight);
+
+
+}
+
+.module-3__text {
+  font-size: var(--font-16);
+  width: 280px;
+}
+
+.module-3__section--1 {
+width: 50%;
+}
+.module-3__section--2 {
+height: 100%;
+width: 50%;
+background-image: url(../images/creando-espacios.jpg);
+background-size:cover;
+}
+
+.module-3__imagen {
+  100%;
+}
+
+
+
+
+}
+
+
+@media all and (max-width: 1200px) {
+  .header__nav--desktop {
+  display: none;
+
+}
+}
